@@ -39,10 +39,12 @@ public class Main {
 
         scanner.close();
     }
-
     public static void displayResult(String WTS, int T) {
         for (int i = 0; i < T; i++) {
-            System.out.println(i + 1 + " " + WTS);
+                System.out.println(i + 1 + " " + WTS);
+                if (i >= t) {
+                    break;
+                }
         }
     }
 }
