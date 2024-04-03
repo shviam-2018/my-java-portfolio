@@ -17,7 +17,7 @@ public class object_method
         car.model = "Tesla model y";
         car.year = 2020;
 
-        // printed the object attribeut
+        // printed the object attribeut to the console
         System.out.println("i drive a "+ car.make);
         System.out.println("the new one "+ car.model);
         System.out.println("this " + car.model+" was made in "+ car.year);
